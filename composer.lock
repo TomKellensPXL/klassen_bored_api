@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85a841823338cc1ed6a1f5924cc64a47",
+    "content-hash": "6d1c371477ef92cfa1e909ec2dd96392",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -601,6 +601,102 @@
                 }
             ],
             "time": "2024-04-18T09:32:20+00:00"
+        },
+        {
+            "name": "tdtrung17693/php-chalk",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdtrung17693/php-chalk.git",
+                "reference": "1492ba836a374a418f4e1a0ac402d7805f24f0b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdtrung17693/php-chalk/zipball/1492ba836a374a418f4e1a0ac402d7805f24f0b2",
+                "reference": "1492ba836a374a418f4e1a0ac402d7805f24f0b2",
+                "shasum": ""
+            },
+            "require": {
+                "tdtrung17693/php-os-recognizer": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TdTrung\\Chalk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2"
+            ],
+            "authors": [
+                {
+                    "name": "Tran Dinh Trung",
+                    "email": "trandinhtrung176@gmail.com"
+                }
+            ],
+            "description": "Just another PHP terminal string styling",
+            "keywords": [
+                "ansi-color",
+                "cli",
+                "cli-color",
+                "color",
+                "terminal-color"
+            ],
+            "support": {
+                "issues": "https://github.com/tdtrung17693/php-chalk/issues",
+                "source": "https://github.com/tdtrung17693/php-chalk/tree/v1.0.0"
+            },
+            "time": "2019-06-11T16:31:08+00:00"
+        },
+        {
+            "name": "tdtrung17693/php-os-recognizer",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdtrung17693/php-os-recognizer.git",
+                "reference": "9f7c9c8dd9973bb1535cab38bdac98a26c01c108"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdtrung17693/php-os-recognizer/zipball/9f7c9c8dd9973bb1535cab38bdac98a26c01c108",
+                "reference": "9f7c9c8dd9973bb1535cab38bdac98a26c01c108",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TdTrung\\OSRecognizer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tran Dinh Trung",
+                    "email": "trandinhtrung176@gmail.com"
+                }
+            ],
+            "description": "OS recognizer for PHP",
+            "keywords": [
+                "detect",
+                "operating system",
+                "os",
+                "recognizer"
+            ],
+            "support": {
+                "issues": "https://github.com/tdtrung17693/php-os-recognizer/issues",
+                "source": "https://github.com/tdtrung17693/php-os-recognizer/tree/v1.0.0"
+            },
+            "time": "2019-06-11T13:37:26+00:00"
         }
     ],
     "packages-dev": [],
